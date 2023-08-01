@@ -1,0 +1,284 @@
+img{
+    max-width: 100%;
+}
+header{
+    background-color:black;
+}
+.logo img{
+    width: 100px;
+}
+.menu{
+
+    text-align: right;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0px;
+}
+ul li{
+    display: inline-block;
+    margin-left: -4px;
+
+   
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 1px 20px;
+    font-size: 18px;
+    line-height: 67px;
+    display: block;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+/* dropdawn */
+.menu li{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    top: 200%;
+    left: 0;
+    width: 200px;
+    background-color: black;
+    padding-left: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    text-align: left;
+    }
+.submenu li{
+    display:block;
+
+}
+.menu li:hover .submenu{
+visibility: visible;
+opacity: 1;
+top: 100%;
+text-decoration: none;
+}
+.submenu li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* header end */
+.bannar{
+    background: url(https://i.ibb.co/cx8Pwbv/a0c6042d4612d7adf44692fffac7e082.jpg);
+    padding: 200px 0px;
+    background-size: cover;
+    background-position:top center;
+    background-repeat: no-repeat;
+}
+.bannar h1{
+    font-weight: 900;
+    font-size: 45px;
+    margin-top: -34px;
+    margin-left: 57px;
+    padding-bottom: 5px;
+
+}
+.bannar h3{
+    font-weight: 800;
+    margin-left: 57px;
+}
+.btn1{
+    margin-left: 57px;
+    background: black;
+    padding: 20px 45px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: .5s;
+    border: 1px solid white;
+
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn2{
+    margin-left: 57px;
+    background: white;
+    padding: 20px 45px;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration:none;
+    margin-left: 10px;
+    color: black;
+    font-weight: 800;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+/* bannar-section end */
+.about{
+    background-color:#87a471 ;
+    padding: 10px 0px;
+}
+.ab-h1{ 
+     text-align: center;
+    color: #e8dfda;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px white;
+    position: relative;
+    font-weight: 700;
+}
+.ab-h1::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 24%;
+    height: 3px;
+    top: 67px;
+    left: 38%;}
+    .paragraph{
+        padding: 80px 0px;
+        color: #dedfe0;
+    }
+    .about img{
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 95px;
+    }
+    /* about section end */
+    
+    .card-section{
+        background-color: #606a64;
+        padding: 40px 0px;
+    }
+    .containt-responsiv h1{
+    color:#e8dfda ;
+    font-size: 45px;
+    font-weight: 800;
+    text-shadow: 1px 1px 5px white;
+    margin-bottom: 20px;
+    position: relative;
+    }
+    .containt-responsiv h1::before{
+        content: "";
+        position: absolute;
+        background-color: white;
+        top: 58px;
+        left: 40%;
+        width: 20%;
+        height: 3px;
+
+    }
+    .containt-responsiv p{
+        width: 600px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+.card{
+    width: 300px;
+    height: 220px;
+    padding: 22px 20px;
+    margin: auto;
+    border-radius: 15px !important;
+}
+/* card-section end */
+    .work-part{
+        background-color: #87a471;
+        padding: 100px;
+    }
+    .work-part .p1{
+        color: #e2f3e0;
+        margin-bottom: 50px;
+    }
+    .work-part img{
+        width: 550px;
+        height: auto;
+    }
+    .work-part p{
+        font-size: 20px;
+    color: #4e7b8e;
+    margin-top: 20px;
+    line-height: 14px;
+}
+.part1 {
+    border: 1px solid white;
+}
+.card4{
+    margin-top: 50px;
+}
+/* worak part end */
+    
+.team-section{
+    background-color:#5b9776 ;
+    padding: 50px 0px;
+}
+.team-section h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 50px 0px;
+    position: relative;
+}
+.team-section h1::before{
+    content: "";
+    position: absolute;
+    top: 105px;
+    left: 38%;
+    width: 25%;
+    height: 3px;
+    background-color: white;
+}
+.social-icon{
+    list-style: none;
+    
+}
+
+i {
+    font-size: 39px;
+    margin: 0px 10px;
+    color: white;
+    margin-top: 15px;
+}
+i:hover{
+    color: #33475a;
+}
+/* team part end */
+.contant{
+    background-color:#606a64;
+    padding: 100px 0px;
+    text-align: center;
+    color: #e2f3e0;
+}
+
+.contant a {
+        background-color: #00bc9c;
+        color: white;
+        padding: 8px 36px;
+        border-radius: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 13px;
+    display: inline-block;
+    }
+    .contant p{
+        line-height: 10px;
+    }
+.contant h1{
+    margin-bottom: 20px;
+}
+.contant a:hover{
+    background-color:#33475a ;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    line-height: 19px;
+}
